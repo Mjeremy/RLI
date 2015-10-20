@@ -11,6 +11,8 @@ Premièrement il faut ajouter et configurer les deux machines sans oublier d'att
 
 Cliquer sur le projet et sélectionner le réseau **MPI**. Dans la fenêtre qui s'ouvre, il faut relier les deux stations à la ligne rouge qui représente le réseau **MPI**.
 
+![MPI](ressources/MPI.png)
+
 ###3. Ajout des blocs de données globales
 
 Dans la fenêtre des blocs de chaque machine, créer un bloc de donnée et choisir *données globales* dans la fenêtre qui s'ouvre. 
@@ -36,9 +38,15 @@ On va définir deux *mementos*, **MW10** et **MW20** en tant qu'émetteur sur la
 
 Tout d'abord il ne faut pas oublier d'ouvrir le **DB10** de la station en utilisant le bloc pour l'ouverture d'un DB (OPN).
 
+![OPEN](ressources/OpenDB.png)
+
 Ensuite, définir un compteur en utilisant le bloc **ZAEHLER** et sortir le résultat dans **MW10**. 
 
+![ZAEHLER](ressources/Compteur.png)
+
 Pour finir, créer un réseau par valeur à transférer et faire une comparaison du compteur (**MW10**) avec un entier et ensuite utiliser le bloc **MOVE** pour déplacer la valeur du **DB10** vers le *memento* **MW20**.
+
+![MOVE1](ressources/Comptage.png)
 
 + Pour sélectionner la première valeur dans le DB10 >> **DB10.DBW0**
 + Pour sélectionner la deuxième valeur dans le DB10 >> **DB10.DBW2**
@@ -49,6 +57,9 @@ Pour finir, créer un réseau par valeur à transférer et faire une comparaison
 Comme pour la première station, ouvrir le **DB20**.
 
 Ensuite comparer **MW20** avec un entier et déplacer la valeur du *memento* **MW20** vers le **DB20**.
+
+![MOVE2](ressources/move2.png)
+![MOVE22](ressources/move22.png)
 
 ###7. Fini
 
