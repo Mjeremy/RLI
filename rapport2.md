@@ -23,8 +23,11 @@ Dans la fenêtre des blocs de chaque machine, créer un bloc de donnée et chois
 
 Tout d'abord il ne faut pas oublier d'ouvrir le **DB10** de la station en utilisant le bloc pour l'ouverture d'un DB (OPN).
 
+![OPEN](ressources/OpenDB.PNG)
+
 Ensuite insérer le bloc de fonction système **USEND** (SFB8) et le configurer comme l'image suivante.
->AJOUT PHOTO
+
+![USEND](ressources/USEND.PNG)
 
 +	REQ : Paramètre de commande pour activer l'échange de données
 +	ID : Identifiant de la station émettant les données
@@ -35,9 +38,11 @@ Ensuite insérer le bloc de fonction système **USEND** (SFB8) et le configurer 
 
 Tout d'abord il ne faut pas oublier d'ouvrir le **DB10** de la station en utilisant le bloc pour l'ouverture d'un DB (OPN).
 
+![OPEN](ressources/OpenDB.PNG)
+
 Ensuite insérer le bloc de fonction système **URCV** (SFB9) et le configurer comme l'image suivante.
 
->AJOUT PHOTO
+![URCV](ressources/URCV.PNG)
 
 + EN_R : Paramètre de commande pour la réception des données.
 + ID : Identifiant de la station recevant les données
