@@ -1,4 +1,7 @@
+https://github.com/MJeremy/RLI
 THIRY Antoine - MAECK Jérémy
+
+
 #**Rapport RLI**
 
 Transferer les données d'un bloc de données globales vers un autre bloc de données globales sur une autre station connectée en MPI.
