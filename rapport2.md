@@ -1,4 +1,6 @@
+https://github.com/Mjeremy/RLI
 THIRY Antoine - MAECK Jérémy
+
 #**Rapport RLI n°2**
 
 Transferer les données d'un bloc de données globales grâce au bloc de fonction **USEND** vers une autre station, connectée en MPI, qui les recevront via le bloc de fonction **URCV** 
